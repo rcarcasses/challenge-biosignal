@@ -52,7 +52,7 @@ Where:
 ### Basic Usage
 
 ```bash
-python breathing_analyzer.py
+python bpm.py
 ```
 
 This will process the default file `H10_log_20250611_2133.json` and create `breathing_rate_output.csv`.
@@ -60,7 +60,7 @@ This will process the default file `H10_log_20250611_2133.json` and create `brea
 ### Custom Input/Output Files
 
 ```bash
-python breathing_analyzer.py input_file.json output_file.csv
+python bpm.py input_file.json output_file.csv
 ```
 
 ### Command Line Arguments
